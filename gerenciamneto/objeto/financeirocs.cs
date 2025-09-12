@@ -13,7 +13,7 @@ namespace gerenciamneto.objeto
         public decimal valor;
         public string tipo;
         public string servico;
-        public string data_lancamento;
+        public DateTime data_lancamento;
         public Boolean pgto;
 public bool cadastrar(conexao conexao)
         {

@@ -16,10 +16,10 @@ namespace gerenciamneto
             //chamando o objeto financeiro
             financeirocs fin=new financeirocs();
             //populando as informações
-            fin.data_lancamento = Data_lancamento.Text;
+            fin.data_lancamento = Data_lancamento.Value;
             fin.descricao=txtDescricao.Text;
             fin.servico=cboServico.Text;
-            fin.valor=Convert.ToDecimal(txtValor.Text);
+            fin.valor=decimal.Parse(txtValor.Text);
             fin.tipo=cboTipo.Text;
             fin.pgto=chkpagamento.Checked;
            if( fin.cadastrar(con)== true)
