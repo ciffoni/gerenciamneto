@@ -187,6 +187,7 @@
             btnEditar.TabIndex = 15;
             btnEditar.Text = "Editar";
             btnEditar.UseVisualStyleBackColor = true;
+            btnEditar.Click += btnEditar_Click;
             // 
             // btnExcluir
             // 
@@ -231,6 +232,8 @@
             dataGridView1.RowTemplate.Height = 29;
             dataGridView1.Size = new Size(363, 188);
             dataGridView1.TabIndex = 20;
+            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
+            dataGridView1.Click += dataGridView1_Click;
             // 
             // Form1
             // 
@@ -260,6 +263,7 @@
             Controls.Add(label1);
             Name = "Form1";
             Text = "Form1";
+            Load += Form1_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
             PerformLayout();
