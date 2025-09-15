@@ -197,6 +197,7 @@
             btnExcluir.TabIndex = 16;
             btnExcluir.Text = "Excluir";
             btnExcluir.UseVisualStyleBackColor = true;
+            btnExcluir.Click += btnExcluir_Click;
             // 
             // btnPesquisar
             // 
@@ -206,6 +207,7 @@
             btnPesquisar.TabIndex = 17;
             btnPesquisar.Text = "buscar";
             btnPesquisar.UseVisualStyleBackColor = true;
+            btnPesquisar.Click += btnPesquisar_Click;
             // 
             // label8
             // 
@@ -230,8 +232,9 @@
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
             dataGridView1.RowTemplate.Height = 29;
-            dataGridView1.Size = new Size(363, 188);
+            dataGridView1.Size = new Size(665, 322);
             dataGridView1.TabIndex = 20;
+            dataGridView1.CellClick += dataGridView1_CellClick;
             dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             dataGridView1.Click += dataGridView1_Click;
             // 
@@ -239,7 +242,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(1135, 450);
             Controls.Add(dataGridView1);
             Controls.Add(txtPesquisar);
             Controls.Add(label8);

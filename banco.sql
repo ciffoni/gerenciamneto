@@ -59,6 +59,7 @@ CREATE TABLE IF NOT EXISTS `gerenciamento`.`financeiro` (
   `tipo` VARCHAR(45) NULL,
   `servico` VARCHAR(45) NULL,
   `data_lancamento` date NULL,
+  
   `pgto` boolean NULL,
   
   PRIMARY KEY (`cod_lancamento`))

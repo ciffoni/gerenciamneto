@@ -25,7 +25,8 @@ namespace gerenciamneto.objeto
             object[] valores = { descricao, valor, tipo, servico, data_lancamento, pgto };
             if (conexao.cadastrar(campos, valores, sql) >= 1)
             {
-                resultado = true;
+                resultado = true
+                    ;
             }
             return resultado;
         }
@@ -33,8 +34,8 @@ namespace gerenciamneto.objeto
         {
 
             bool resultado = false;
-            string sql = " Update financeiro set descricao= @descricao,valor=@valor,tipo=@tipo,servico=@servico,data_lancamento=@data,pgto=@pgto) " +
-                "where codigo_lancamento=@codigo";
+            string sql = " Update financeiro set descricao= @descricao,valor=@valor,tipo=@tipo,servico=@servico,data_lancamento=@data,pgto=@pgto " +
+                "where cod_lancamento=@codigo";
             string[] campos = { "@descricao", "@valor", "@tipo", "@servico", "@data", "@pgto","@codigo" };
             object[] valores = { descricao, valor, tipo, servico, data_lancamento, pgto,id };
             if (conexao.cadastrar(campos, valores, sql) >= 1)
@@ -43,6 +44,19 @@ namespace gerenciamneto.objeto
             }
             return resultado;
         }
+public bool Excluir(conexao com)
+        {
+            bool resultado = false;
+            string sql = " delete from financeiro where cod_lancamento=@codigo";
+            string[] campos = { "@codigo" };
+            object[] valores = { id };
+            if (com.cadastrar(campos, valores, sql) >= 1)
+            {
+                resultado = true;
+            }
 
+
+            return resultado;
+        }
     }
 }
