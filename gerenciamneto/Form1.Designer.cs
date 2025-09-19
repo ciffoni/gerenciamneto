@@ -49,6 +49,7 @@
             label8 = new Label();
             txtPesquisar = new TextBox();
             dataGridView1 = new DataGridView();
+            button1 = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -175,7 +176,7 @@
             btnCadastrar.Name = "btnCadastrar";
             btnCadastrar.Size = new Size(94, 29);
             btnCadastrar.TabIndex = 14;
-            btnCadastrar.Text = "Cadastrsr";
+            btnCadastrar.Text = "Cadastrar";
             btnCadastrar.UseVisualStyleBackColor = true;
             btnCadastrar.Click += btnCadastrar_Click;
             // 
@@ -238,11 +239,22 @@
             dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             dataGridView1.Click += dataGridView1_Click;
             // 
+            // button1
+            // 
+            button1.Location = new Point(822, 24);
+            button1.Name = "button1";
+            button1.Size = new Size(94, 29);
+            button1.TabIndex = 21;
+            button1.Text = "Relatório";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1135, 450);
+            Controls.Add(button1);
             Controls.Add(dataGridView1);
             Controls.Add(txtPesquisar);
             Controls.Add(label8);
@@ -295,5 +307,6 @@
         private Label label8;
         private TextBox txtPesquisar;
         private DataGridView dataGridView1;
+        private Button button1;
     }
 }

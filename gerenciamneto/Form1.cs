@@ -123,8 +123,16 @@ namespace gerenciamneto
             }
             else
             {
-                dataGridView1.DataSource = com.obterdados("select * from financeiro where descricao like '%"+txtPesquisar.Text+"%' or data_lancamento like '%"+txtPesquisar.Text+"%'");
+                dataGridView1.DataSource = com.obterdados("select * from financeiro where descricao like '%" + txtPesquisar.Text + "%' or data_lancamento like '%" + txtPesquisar.Text + "%'");
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            //chama o formulario instancia o objeto
+            FrmRelatorio relatorio = new FrmRelatorio();
+            //abre a tela do relatorio
+            relatorio.ShowDialog();
         }
     }
 }

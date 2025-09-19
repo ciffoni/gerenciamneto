@@ -41,3 +41,6 @@ C:\Users\pcbr4\OneDrive\Favoritos\Documentos\GitHub\gerenciamneto\gerenciamneto\
 C:\Users\pcbr4\OneDrive\Favoritos\Documentos\GitHub\gerenciamneto\gerenciamneto\obj\Debug\net6.0-windows\gerenciamneto.pdb
 C:\Users\pcbr4\OneDrive\Favoritos\Documentos\GitHub\gerenciamneto\gerenciamneto\obj\Debug\net6.0-windows\gerenciamneto.genruntimeconfig.cache
 C:\Users\pcbr4\OneDrive\Favoritos\Documentos\GitHub\gerenciamneto\gerenciamneto\obj\Debug\net6.0-windows\ref\gerenciamneto.dll
+C:\Users\pcbr4\OneDrive\Favoritos\Documentos\GitHub\gerenciamneto\gerenciamneto\obj\Debug\net6.0-windows\gerenciamneto.FrmRelatorio.resources
+C:\Users\pcbr4\OneDrive\Favoritos\Documentos\GitHub\gerenciamneto\gerenciamneto\bin\Debug\net6.0-windows\itextsharp.dll
+C:\Users\pcbr4\OneDrive\Favoritos\Documentos\GitHub\gerenciamneto\gerenciamneto\obj\Debug\net6.0-windows\gerenciamneto.csproj.ResolveComReference.cache
