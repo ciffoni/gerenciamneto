@@ -19,6 +19,8 @@ using System.IO;
 using iTextSharp.text;
 using Document = iTextSharp.text.Document;
 using System.Diagnostics;
+//incluir a biblioteca do chart
+using System.Windows.Forms.DataVisualization.Charting;
 namespace gerenciamneto
 {
     public partial class FrmRelatorio : Form
@@ -28,6 +30,14 @@ namespace gerenciamneto
             InitializeComponent();
         }
 
+        //criar o metodo para configurar o gráfico
+        private void configurarChart()
+        {
+            
+            chartFluxoCaixa.titles.Clear();
+
+            ChartArea chartArea = new ChartArea();
+        }
         private void btnExcel_Click(object sender, EventArgs e)
         {
             //nome do arquivo que será salvo

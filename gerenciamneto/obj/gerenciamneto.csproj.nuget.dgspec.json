@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pcbr4\\OneDrive\\Favoritos\\Documentos\\GitHub\\gerenciamneto\\gerenciamneto\\gerenciamneto.csproj": {}
+    "C:\\Users\\Aluno\\Documents\\GitHub\\gerenciamneto\\gerenciamneto\\gerenciamneto.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pcbr4\\OneDrive\\Favoritos\\Documentos\\GitHub\\gerenciamneto\\gerenciamneto\\gerenciamneto.csproj": {
+    "C:\\Users\\Aluno\\Documents\\GitHub\\gerenciamneto\\gerenciamneto\\gerenciamneto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pcbr4\\OneDrive\\Favoritos\\Documentos\\GitHub\\gerenciamneto\\gerenciamneto\\gerenciamneto.csproj",
+        "projectUniqueName": "C:\\Users\\Aluno\\Documents\\GitHub\\gerenciamneto\\gerenciamneto\\gerenciamneto.csproj",
         "projectName": "gerenciamneto",
-        "projectPath": "C:\\Users\\pcbr4\\OneDrive\\Favoritos\\Documentos\\GitHub\\gerenciamneto\\gerenciamneto\\gerenciamneto.csproj",
-        "packagesPath": "C:\\Users\\pcbr4\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pcbr4\\OneDrive\\Favoritos\\Documentos\\GitHub\\gerenciamneto\\gerenciamneto\\obj\\",
+        "projectPath": "C:\\Users\\Aluno\\Documents\\GitHub\\gerenciamneto\\gerenciamneto\\gerenciamneto.csproj",
+        "packagesPath": "C:\\Users\\Aluno\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Aluno\\Documents\\GitHub\\gerenciamneto\\gerenciamneto\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\pcbr4\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Aluno\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,13 +44,20 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "dependencies": {
+            "Chart.Net": {
+              "target": "Package",
+              "version": "[1.0.4, )"
+            },
+            "Chart.js": {
+              "target": "Package",
+              "version": "[3.7.1, )"
+            },
             "MySql.Data": {
               "target": "Package",
               "version": "[9.4.0, )"
@@ -58,6 +65,10 @@
             "NETStandard.Library": {
               "target": "Package",
               "version": "[2.0.3, )"
+            },
+            "WinForms.DataVisualization": {
+              "target": "Package",
+              "version": "[1.10.0, )"
             },
             "iTextSharp": {
               "target": "Package",
@@ -75,6 +86,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.28, 6.0.28]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.28, 6.0.28]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.28, 6.0.28]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.28, 6.0.28]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -83,7 +112,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
