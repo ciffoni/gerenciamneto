@@ -41,6 +41,19 @@
       "Chart.js/3.7.1": {
         "type": "package"
       },
+      "Correios-Api/1.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net45+win/Correios.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/portable-net45+win/Correios.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
       "Google.Protobuf/3.30.0": {
         "type": "package",
         "compile": {
@@ -803,6 +816,49 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "System.Security.Principal.Windows/5.0.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp3.0/System.Security.Principal.Windows.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Principal.Windows.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.dll": {
+            "assetType": "runtime",
+            "rid": "unix"
+          },
+          "runtimes/win/lib/netcoreapp2.1/System.Security.Principal.Windows.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.ServiceModel.Primitives/8.1.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.Principal.Windows": "5.0.0"
+        },
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.ServiceModel.Duplex.dll": {
+            "related": ".pdb"
+          },
+          "lib/netstandard2.0/System.ServiceModel.Primitives.dll": {
+            "related": ".pdb"
+          },
+          "lib/netstandard2.0/System.ServiceModel.Security.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
       "System.Text.Encoding/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -993,6 +1049,25 @@
         "chart.js.nuspec",
         "content/Scripts/chart.js",
         "content/Scripts/chart.min.js"
+      ]
+    },
+    "Correios-Api/1.1.1": {
+      "sha512": "K16sLS8pVPndiqLmuMKokfuN/23OzaFDL/0H4YkbGzO/VYt3RIYsQ1ottjJNeZ/01WEYhgrJrEiwg/rIuInrDw==",
+      "type": "package",
+      "path": "correios-api/1.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "correios-api.1.1.1.nupkg.sha512",
+        "correios-api.nuspec",
+        "lib/portable-net45+win/Correios.dll",
+        "lib/portable-net45+win/Correios.pdb",
+        "src/CorreiosService.cs",
+        "src/ICorreiosApi.cs",
+        "src/ICorreiosApiAsync.cs",
+        "src/ICorreiosApiSync.cs",
+        "src/Properties/AssemblyInfo.cs",
+        "src/Service.cs"
       ]
     },
     "Google.Protobuf/3.30.0": {
@@ -2486,6 +2561,126 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "System.Security.Principal.Windows/5.0.0": {
+      "sha512": "t0MGLukB5WAVU9bO3MGzvlGnyJPgUlcwerXn1kzBRjwLKixT96XV0Uza41W49gVd8zEMFu9vQEFlv0IOrytICA==",
+      "type": "package",
+      "path": "system.security.principal.windows/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net46/System.Security.Principal.Windows.dll",
+        "lib/net461/System.Security.Principal.Windows.dll",
+        "lib/net461/System.Security.Principal.Windows.xml",
+        "lib/netstandard1.3/System.Security.Principal.Windows.dll",
+        "lib/netstandard2.0/System.Security.Principal.Windows.dll",
+        "lib/netstandard2.0/System.Security.Principal.Windows.xml",
+        "lib/uap10.0.16299/_._",
+        "ref/net46/System.Security.Principal.Windows.dll",
+        "ref/net461/System.Security.Principal.Windows.dll",
+        "ref/net461/System.Security.Principal.Windows.xml",
+        "ref/netcoreapp3.0/System.Security.Principal.Windows.dll",
+        "ref/netcoreapp3.0/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/System.Security.Principal.Windows.dll",
+        "ref/netstandard1.3/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/de/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/es/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/fr/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/it/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/ja/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/ko/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/ru/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/zh-hans/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/zh-hant/System.Security.Principal.Windows.xml",
+        "ref/netstandard2.0/System.Security.Principal.Windows.dll",
+        "ref/netstandard2.0/System.Security.Principal.Windows.xml",
+        "ref/uap10.0.16299/_._",
+        "runtimes/unix/lib/netcoreapp2.0/System.Security.Principal.Windows.dll",
+        "runtimes/unix/lib/netcoreapp2.0/System.Security.Principal.Windows.xml",
+        "runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.dll",
+        "runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.xml",
+        "runtimes/win/lib/net46/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/net461/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/net461/System.Security.Principal.Windows.xml",
+        "runtimes/win/lib/netcoreapp2.0/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/netcoreapp2.0/System.Security.Principal.Windows.xml",
+        "runtimes/win/lib/netcoreapp2.1/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/netcoreapp2.1/System.Security.Principal.Windows.xml",
+        "runtimes/win/lib/netstandard1.3/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/uap10.0.16299/_._",
+        "system.security.principal.windows.5.0.0.nupkg.sha512",
+        "system.security.principal.windows.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.ServiceModel.Primitives/8.1.2": {
+      "sha512": "xlJ07FAUSDjPL/GhvVY1/KVPWn2ce056X4nHPwqAa5rkNLiNN5rqh6VcgMUoF6J7ckwhkVJ1vVx/K/47nyyR9g==",
+      "type": "package",
+      "path": "system.servicemodel.primitives/8.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "README.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net462/System.ServiceModel.Duplex.dll",
+        "lib/net462/System.ServiceModel.Duplex.pdb",
+        "lib/net462/System.ServiceModel.Primitives.dll",
+        "lib/net462/System.ServiceModel.Primitives.pdb",
+        "lib/net462/System.ServiceModel.Security.dll",
+        "lib/net462/System.ServiceModel.Security.pdb",
+        "lib/net8.0/System.ServiceModel.Duplex.dll",
+        "lib/net8.0/System.ServiceModel.Duplex.pdb",
+        "lib/net8.0/System.ServiceModel.Primitives.dll",
+        "lib/net8.0/System.ServiceModel.Primitives.pdb",
+        "lib/net8.0/System.ServiceModel.Security.dll",
+        "lib/net8.0/System.ServiceModel.Security.pdb",
+        "lib/net8.0/System.ServiceModel.dll",
+        "lib/net8.0/System.ServiceModel.pdb",
+        "lib/net8.0/cs/System.ServiceModel.Primitives.resources.dll",
+        "lib/net8.0/de/System.ServiceModel.Primitives.resources.dll",
+        "lib/net8.0/es/System.ServiceModel.Primitives.resources.dll",
+        "lib/net8.0/fr/System.ServiceModel.Primitives.resources.dll",
+        "lib/net8.0/it/System.ServiceModel.Primitives.resources.dll",
+        "lib/net8.0/ja/System.ServiceModel.Primitives.resources.dll",
+        "lib/net8.0/ko/System.ServiceModel.Primitives.resources.dll",
+        "lib/net8.0/pl/System.ServiceModel.Primitives.resources.dll",
+        "lib/net8.0/pt-BR/System.ServiceModel.Primitives.resources.dll",
+        "lib/net8.0/ru/System.ServiceModel.Primitives.resources.dll",
+        "lib/net8.0/tr/System.ServiceModel.Primitives.resources.dll",
+        "lib/net8.0/zh-Hans/System.ServiceModel.Primitives.resources.dll",
+        "lib/net8.0/zh-Hant/System.ServiceModel.Primitives.resources.dll",
+        "lib/netstandard2.0/System.ServiceModel.Duplex.dll",
+        "lib/netstandard2.0/System.ServiceModel.Duplex.pdb",
+        "lib/netstandard2.0/System.ServiceModel.Primitives.dll",
+        "lib/netstandard2.0/System.ServiceModel.Primitives.pdb",
+        "lib/netstandard2.0/System.ServiceModel.Security.dll",
+        "lib/netstandard2.0/System.ServiceModel.Security.pdb",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/net462/System.ServiceModel.Duplex.dll",
+        "ref/net462/System.ServiceModel.Primitives.dll",
+        "ref/net462/System.ServiceModel.Security.dll",
+        "ref/net8.0/System.ServiceModel.Duplex.dll",
+        "ref/net8.0/System.ServiceModel.Primitives.dll",
+        "ref/net8.0/System.ServiceModel.Security.dll",
+        "ref/net8.0/System.ServiceModel.dll",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard2.0/System.ServiceModel.Duplex.dll",
+        "ref/netstandard2.0/System.ServiceModel.Primitives.dll",
+        "ref/netstandard2.0/System.ServiceModel.Security.dll",
+        "system.servicemodel.primitives.8.1.2.nupkg.sha512",
+        "system.servicemodel.primitives.nuspec"
+      ]
+    },
     "System.Text.Encoding/4.3.0": {
       "sha512": "BiIg+KWaSDOITze6jGQynxg64naAPtqGHBwDrLaCtixsa5bKiR8dpPOHA7ge3C0JJQizJE+sfkz1wV+BAKAYZw==",
       "type": "package",
@@ -2855,9 +3050,11 @@
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
       "Chart.js >= 3.7.1",
+      "Correios-Api >= 1.1.1",
       "Microsoft.Graph >= 5.93.0",
       "MySql.Data >= 9.4.0",
       "NETStandard.Library >= 2.0.3",
+      "System.ServiceModel.Primitives >= 8.1.2",
       "iTextSharp >= 5.5.13.4"
     ]
   },
@@ -2916,6 +3113,10 @@
             "target": "Package",
             "version": "[3.7.1, )"
           },
+          "Correios-Api": {
+            "target": "Package",
+            "version": "[1.1.1, )"
+          },
           "Microsoft.Graph": {
             "target": "Package",
             "version": "[5.93.0, )"
@@ -2927,6 +3128,10 @@
           "NETStandard.Library": {
             "target": "Package",
             "version": "[2.0.3, )"
+          },
+          "System.ServiceModel.Primitives": {
+            "target": "Package",
+            "version": "[8.1.2, )"
           },
           "iTextSharp": {
             "target": "Package",
@@ -2957,6 +3162,16 @@
     }
   },
   "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'Correios-Api 1.1.1' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net6.0-windows7.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "Correios-Api",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    },
     {
       "code": "NU1701",
       "level": "Warning",

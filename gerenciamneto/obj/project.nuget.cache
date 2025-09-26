@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "KRUpisdPfS8=",
+  "dgSpecHash": "baJqwcJR1Jc=",
   "success": true,
   "projectFilePath": "C:\\Users\\pcbr4\\OneDrive\\Favoritos\\Documentos\\GitHub\\gerenciamneto\\gerenciamneto\\gerenciamneto.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pcbr4\\.nuget\\packages\\azure.core\\1.44.1\\azure.core.1.44.1.nupkg.sha512",
     "C:\\Users\\pcbr4\\.nuget\\packages\\bouncycastle.cryptography\\2.5.1\\bouncycastle.cryptography.2.5.1.nupkg.sha512",
     "C:\\Users\\pcbr4\\.nuget\\packages\\chart.js\\3.7.1\\chart.js.3.7.1.nupkg.sha512",
+    "C:\\Users\\pcbr4\\.nuget\\packages\\correios-api\\1.1.1\\correios-api.1.1.1.nupkg.sha512",
     "C:\\Users\\pcbr4\\.nuget\\packages\\google.protobuf\\3.30.0\\google.protobuf.3.30.0.nupkg.sha512",
     "C:\\Users\\pcbr4\\.nuget\\packages\\itextsharp\\5.5.13.4\\itextsharp.5.5.13.4.nupkg.sha512",
     "C:\\Users\\pcbr4\\.nuget\\packages\\k4os.compression.lz4\\1.3.8\\k4os.compression.lz4.1.3.8.nupkg.sha512",
@@ -54,6 +55,8 @@
     "C:\\Users\\pcbr4\\.nuget\\packages\\system.runtime.loader\\4.3.0\\system.runtime.loader.4.3.0.nupkg.sha512",
     "C:\\Users\\pcbr4\\.nuget\\packages\\system.security.cryptography.protecteddata\\8.0.0\\system.security.cryptography.protecteddata.8.0.0.nupkg.sha512",
     "C:\\Users\\pcbr4\\.nuget\\packages\\system.security.permissions\\8.0.0\\system.security.permissions.8.0.0.nupkg.sha512",
+    "C:\\Users\\pcbr4\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
+    "C:\\Users\\pcbr4\\.nuget\\packages\\system.servicemodel.primitives\\8.1.2\\system.servicemodel.primitives.8.1.2.nupkg.sha512",
     "C:\\Users\\pcbr4\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
     "C:\\Users\\pcbr4\\.nuget\\packages\\system.text.encoding.codepages\\8.0.0\\system.text.encoding.codepages.8.0.0.nupkg.sha512",
     "C:\\Users\\pcbr4\\.nuget\\packages\\system.text.encodings.web\\9.0.0\\system.text.encodings.web.9.0.0.nupkg.sha512",
@@ -64,6 +67,18 @@
     "C:\\Users\\pcbr4\\.nuget\\packages\\zstdsharp.port\\0.8.5\\zstdsharp.port.0.8.5.nupkg.sha512"
   ],
   "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "O pacote 'Correios-Api 1.1.1' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net6.0-windows7.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "projectPath": "C:\\Users\\pcbr4\\OneDrive\\Favoritos\\Documentos\\GitHub\\gerenciamneto\\gerenciamneto\\gerenciamneto.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\pcbr4\\OneDrive\\Favoritos\\Documentos\\GitHub\\gerenciamneto\\gerenciamneto\\gerenciamneto.csproj",
+      "libraryId": "Correios-Api",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    },
     {
       "code": "NU1701",
       "level": "Warning",
