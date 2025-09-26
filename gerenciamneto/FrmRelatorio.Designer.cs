@@ -61,6 +61,7 @@
             Controls.Add(btnExcel);
             Name = "FrmRelatorio";
             Text = "FrmRelatorio";
+            Load += FrmRelatorio_Load;
             ResumeLayout(false);
         }
 

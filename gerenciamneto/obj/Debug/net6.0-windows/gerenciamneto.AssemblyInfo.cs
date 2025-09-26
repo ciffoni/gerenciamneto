@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("gerenciamneto")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d61a74228f7b4668f32e05754a0b4a4bcbe22fba")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dda61e904655aaade218690c926ff5813d732454")]
 [assembly: System.Reflection.AssemblyProductAttribute("gerenciamneto")]
 [assembly: System.Reflection.AssemblyTitleAttribute("gerenciamneto")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

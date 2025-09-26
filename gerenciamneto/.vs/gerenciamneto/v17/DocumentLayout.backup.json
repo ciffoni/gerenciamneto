@@ -11,20 +11,20 @@
       "RelativeMoniker": "D:0:0:{8FFDF57F-6AF7-41AC-AC28-2BC06ECB1B6A}|gerenciamneto.csproj|solutionrelative:frmrelatorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8FFDF57F-6AF7-41AC-AC28-2BC06ECB1B6A}|gerenciamneto.csproj|c:\\users\\pcbr4\\onedrive\\favoritos\\documentos\\github\\gerenciamneto\\gerenciamneto\\objeto\\conexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FFDF57F-6AF7-41AC-AC28-2BC06ECB1B6A}|gerenciamneto.csproj|solutionrelative:objeto\\conexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8FFDF57F-6AF7-41AC-AC28-2BC06ECB1B6A}|gerenciamneto.csproj|C:\\Users\\pcbr4\\OneDrive\\Favoritos\\Documentos\\GitHub\\gerenciamneto\\gerenciamneto\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{8FFDF57F-6AF7-41AC-AC28-2BC06ECB1B6A}|gerenciamneto.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8FFDF57F-6AF7-41AC-AC28-2BC06ECB1B6A}|gerenciamneto.csproj|c:\\users\\pcbr4\\onedrive\\favoritos\\documentos\\github\\gerenciamneto\\gerenciamneto\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FFDF57F-6AF7-41AC-AC28-2BC06ECB1B6A}|gerenciamneto.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8FFDF57F-6AF7-41AC-AC28-2BC06ECB1B6A}|gerenciamneto.csproj|c:\\users\\pcbr4\\onedrive\\favoritos\\documentos\\github\\gerenciamneto\\gerenciamneto\\objeto\\financeirocs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8FFDF57F-6AF7-41AC-AC28-2BC06ECB1B6A}|gerenciamneto.csproj|solutionrelative:objeto\\financeirocs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FFDF57F-6AF7-41AC-AC28-2BC06ECB1B6A}|gerenciamneto.csproj|c:\\users\\pcbr4\\onedrive\\favoritos\\documentos\\github\\gerenciamneto\\gerenciamneto\\objeto\\conexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FFDF57F-6AF7-41AC-AC28-2BC06ECB1B6A}|gerenciamneto.csproj|solutionrelative:objeto\\conexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FFDF57F-6AF7-41AC-AC28-2BC06ECB1B6A}|gerenciamneto.csproj|c:\\users\\pcbr4\\onedrive\\favoritos\\documentos\\github\\gerenciamneto\\gerenciamneto\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FFDF57F-6AF7-41AC-AC28-2BC06ECB1B6A}|gerenciamneto.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,8 +58,8 @@
               "Title": "FrmRelatorio.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\pcbr4\\OneDrive\\Favoritos\\Documentos\\GitHub\\gerenciamneto\\gerenciamneto\\FrmRelatorio.cs",
               "RelativeDocumentMoniker": "FrmRelatorio.cs",
-              "ToolTip": "C:\\Users\\pcbr4\\OneDrive\\Favoritos\\Documentos\\GitHub\\gerenciamneto\\gerenciamneto\\FrmRelatorio.cs [Projeto]*",
-              "RelativeToolTip": "FrmRelatorio.cs [Projeto]*",
+              "ToolTip": "C:\\Users\\pcbr4\\OneDrive\\Favoritos\\Documentos\\GitHub\\gerenciamneto\\gerenciamneto\\FrmRelatorio.cs [Projeto]",
+              "RelativeToolTip": "FrmRelatorio.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-19T11:11:04.736Z",
               "EditorCaption": " [Projeto]"
@@ -70,16 +70,16 @@
               "Title": "FrmRelatorio.cs",
               "DocumentMoniker": "C:\\Users\\pcbr4\\OneDrive\\Favoritos\\Documentos\\GitHub\\gerenciamneto\\gerenciamneto\\FrmRelatorio.cs",
               "RelativeDocumentMoniker": "FrmRelatorio.cs",
-              "ToolTip": "C:\\Users\\pcbr4\\OneDrive\\Favoritos\\Documentos\\GitHub\\gerenciamneto\\gerenciamneto\\FrmRelatorio.cs*",
-              "RelativeToolTip": "FrmRelatorio.cs*",
-              "ViewState": "AgIAAHMAAAAAAAAAAAAkwIIAAAA+AAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\pcbr4\\OneDrive\\Favoritos\\Documentos\\GitHub\\gerenciamneto\\gerenciamneto\\FrmRelatorio.cs",
+              "RelativeToolTip": "FrmRelatorio.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-17T11:33:34.772Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Form1.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\pcbr4\\OneDrive\\Favoritos\\Documentos\\GitHub\\gerenciamneto\\gerenciamneto\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
@@ -91,7 +91,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\pcbr4\\OneDrive\\Favoritos\\Documentos\\GitHub\\gerenciamneto\\gerenciamneto\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
@@ -104,7 +104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "financeirocs.cs",
               "DocumentMoniker": "C:\\Users\\pcbr4\\OneDrive\\Favoritos\\Documentos\\GitHub\\gerenciamneto\\gerenciamneto\\objeto\\financeirocs.cs",
               "RelativeDocumentMoniker": "objeto\\financeirocs.cs",
@@ -117,13 +117,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "conexao.cs",
               "DocumentMoniker": "C:\\Users\\pcbr4\\OneDrive\\Favoritos\\Documentos\\GitHub\\gerenciamneto\\gerenciamneto\\objeto\\conexao.cs",
               "RelativeDocumentMoniker": "objeto\\conexao.cs",
               "ToolTip": "C:\\Users\\pcbr4\\OneDrive\\Favoritos\\Documentos\\GitHub\\gerenciamneto\\gerenciamneto\\objeto\\conexao.cs",
               "RelativeToolTip": "objeto\\conexao.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAACkAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAIBJwCkAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-10T13:02:10.646Z",
               "EditorCaption": ""

@@ -88,7 +88,7 @@ namespace gerenciamneto
             string caminhoPDf = Path.Combine(destinoPDF, "relatorioCliente.pdf");
 
             //criar o documento PDF
-            Document doc= new Document(PageSize.A4);
+            Document doc = new Document(PageSize.A4);
             try
             {
                 PdfWriter writer = PdfWriter.GetInstance(doc, new FileStream(caminhoPDf, FileMode.Create));
@@ -96,23 +96,23 @@ namespace gerenciamneto
                 //definir a fonte
                 Font fonte = new Font("microsoft sans serif", 9f);
                 //criar o paragrafo
-                Paragraph titulo= new Paragraph("Relatorio Financeiro");
+                Paragraph titulo = new Paragraph("Relatorio Financeiro");
                 //alinhamento centro
                 titulo.Alignment = Element.ALIGN_CENTER;
                 doc.Add(titulo);
                 //linha em branco
                 doc.Add(new Paragraph(""));
                 doc.Add(new Paragraph(""));
-                conexao com= new conexao();
+                conexao com = new conexao();
                 com.getConexao();
-                DataTable cliente= new DataTable();
-                
+                DataTable cliente = new DataTable();
+
                 cliente = com.obterdados("select * from financeiro ");
                 //montando a tabela para ler as informações
                 PdfPTable table = new PdfPTable(5);
                 table.WidthPercentage = 100;
                 //define a largura das colunas
-                table.SetWidths(new float[] { 40F, 15F, 20f, 25f,15f });
+                table.SetWidths(new float[] { 40F, 15F, 20f, 25f, 15f });
                 //criar o cabeçalho
                 table.AddCell(new Phrase("descrição"));
                 table.AddCell(new Phrase("valor"));
@@ -121,9 +121,10 @@ namespace gerenciamneto
                 table.AddCell(new Phrase("pgo"));
                 //listar os ites da tabela do banco
                 //varrer todas as linhas da consulta
-                for(int i=0;i<cliente.Rows.Count;i++) {
-                
-                        //pegando a 1 linha e 2 coluna
+                for (int i = 0; i < cliente.Rows.Count; i++)
+                {
+
+                    //pegando a 1 linha e 2 coluna
                     table.AddCell(new Phrase(cliente.Rows[i][1].ToString()));
                     table.AddCell(new Phrase(cliente.Rows[i][2].ToString()));
                     table.AddCell(new Phrase(cliente.Rows[i][3].ToString()));
@@ -131,19 +132,24 @@ namespace gerenciamneto
                     table.AddCell(new Phrase(cliente.Rows[i][6].ToString()));
 
 
-                    }
-                    //adiciono as informações na tabela
-                    doc.Add(table);
+                }
+                //adiciono as informações na tabela
+                doc.Add(table);
                 //fecha o documento
-               
+
                 doc.Close();
                 MessageBox.Show("Relatorio foi gerado com sucesso");
                 Process.Start(caminhoPDf);//abrir o pdf gerado
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Erro ao gerar o PDF",ex.Message);
+                MessageBox.Show("Erro ao gerar o PDF", ex.Message);
             }
+
+        }
+
+        private void FrmRelatorio_Load(object sender, EventArgs e)
+        {
 
         }
     }
