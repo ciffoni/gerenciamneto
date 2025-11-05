@@ -45,3 +45,17 @@ C:\Users\pcbr4\OneDrive\Favoritos\Documentos\GitHub\gerenciamneto\gerenciamneto\
 C:\Users\pcbr4\OneDrive\Favoritos\Documentos\GitHub\gerenciamneto\gerenciamneto\bin\Debug\net6.0-windows\itextsharp.dll
 C:\Users\pcbr4\OneDrive\Favoritos\Documentos\GitHub\gerenciamneto\gerenciamneto\obj\Debug\net6.0-windows\gerenciamneto.csproj.ResolveComReference.cache
 C:\Users\pcbr4\OneDrive\Favoritos\Documentos\GitHub\gerenciamneto\gerenciamneto\obj\Debug\net6.0-windows\gerenciamneto.usuario.resources
+C:\Users\Aluno\Documents\GitHub\gerenciamneto\gerenciamneto\obj\Debug\net6.0-windows\gerenciamneto.csproj.AssemblyReference.cache
+C:\Users\Aluno\Documents\GitHub\gerenciamneto\gerenciamneto\obj\Debug\net6.0-windows\gerenciamneto.csproj.ResolveComReference.cache
+C:\Users\Aluno\Documents\GitHub\gerenciamneto\gerenciamneto\obj\Debug\net6.0-windows\gerenciamneto.Form1.resources
+C:\Users\Aluno\Documents\GitHub\gerenciamneto\gerenciamneto\obj\Debug\net6.0-windows\gerenciamneto.FrmRelatorio.resources
+C:\Users\Aluno\Documents\GitHub\gerenciamneto\gerenciamneto\obj\Debug\net6.0-windows\gerenciamneto.usuario.resources
+C:\Users\Aluno\Documents\GitHub\gerenciamneto\gerenciamneto\obj\Debug\net6.0-windows\gerenciamneto.csproj.GenerateResource.cache
+C:\Users\Aluno\Documents\GitHub\gerenciamneto\gerenciamneto\obj\Debug\net6.0-windows\gerenciamneto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aluno\Documents\GitHub\gerenciamneto\gerenciamneto\obj\Debug\net6.0-windows\gerenciamneto.AssemblyInfoInputs.cache
+C:\Users\Aluno\Documents\GitHub\gerenciamneto\gerenciamneto\obj\Debug\net6.0-windows\gerenciamneto.AssemblyInfo.cs
+C:\Users\Aluno\Documents\GitHub\gerenciamneto\gerenciamneto\obj\Debug\net6.0-windows\gerenciamneto.csproj.CoreCompileInputs.cache
+C:\Users\Aluno\Documents\GitHub\gerenciamneto\gerenciamneto\obj\Debug\net6.0-windows\gerenciamneto.sourcelink.json
+C:\Users\Aluno\Documents\GitHub\gerenciamneto\gerenciamneto\obj\Debug\net6.0-windows\gerenciamneto.dll
+C:\Users\Aluno\Documents\GitHub\gerenciamneto\gerenciamneto\obj\Debug\net6.0-windows\refint\gerenciamneto.dll
+C:\Users\Aluno\Documents\GitHub\gerenciamneto\gerenciamneto\obj\Debug\net6.0-windows\gerenciamneto.pdb

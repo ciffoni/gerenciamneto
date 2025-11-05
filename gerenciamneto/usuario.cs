@@ -26,10 +26,10 @@ namespace gerenciamneto
         private void txtcep_Leave(object sender, EventArgs e)
         {
             // instanciar a api do correio
-            var correios= new CorreiosApi();
+     /*       var correios= new CorreiosApi();
             var dados = correios.consultaCEP(txtcep.Text);
             MessageBox.Show("Enreço:" + dados.end.ToString() +
                 "cidade:" + dados.cidade.ToString() + "Bairro:" + dados.bairro.ToString());
-        }
+       */ }
     }
 }

@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36408.4 d17.14
+VisualStudioVersion = 17.14.36408.4
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gerenciamneto", "gerenciamneto.csproj", "{8FFDF57F-6AF7-41AC-AC28-2BC06ECB1B6A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gerenciamneto", "gerenciamneto.csproj", "{8FFDF57F-6AF7-41AC-AC28-2BC06ECB1B6A}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup1", "..\Setup1\Setup1.vdproj", "{A8184573-4F95-4820-BB0C-CC148E491B8C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,8 @@ Global
 		{8FFDF57F-6AF7-41AC-AC28-2BC06ECB1B6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8FFDF57F-6AF7-41AC-AC28-2BC06ECB1B6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8FFDF57F-6AF7-41AC-AC28-2BC06ECB1B6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8184573-4F95-4820-BB0C-CC148E491B8C}.Debug|Any CPU.ActiveCfg = Debug
+		{A8184573-4F95-4820-BB0C-CC148E491B8C}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
